@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:backgroundTint="@color/black_themed"
+    android:background="@color/black_themed"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your Name"
+        tools:ignore="MissingConstraints"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/fredoka_bold"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        tools:ignore="InvalidId,MissingConstraints"
+        android:layout_margin="20dp"
+        ></EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your Email"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/fredoka_bold"
+        android:textSize="20dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_margin="20dp"
+        tools:ignore="InvalidId,MissingConstraints"
+        ></EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your Password"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/fredoka_bold"
+        android:textSize="20dp"></TextView>
+
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/fredoka_bold"
+        android:textSize="20dp"></TextView>
+
+
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:fontFamily="@font/fredoka_bold"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
+
+</ScrollView>

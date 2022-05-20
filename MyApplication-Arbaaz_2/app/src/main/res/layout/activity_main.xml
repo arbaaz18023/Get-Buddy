@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:backgroundTint="@color/black_themed"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Welcome to,"
+        android:fontFamily="@font/fredoka_bold"
+         />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="GetPlayBuddy"
+        android:fontFamily="@font/fredoka_bold"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:fontFamily="@font/fredoka_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Enter your Email"
+        android:textAlignment="center"
+        ></TextView>
+
+
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:fontFamily="@font/fredoka_bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="Enter your Password"
+        android:textAlignment="center"/>
+
+
+    <EditText
+        android:fontFamily="@font/fredoka_bold"
+        android:textColor="@color/black"
+        android:id="@+id/LoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:fontFamily="@font/fredoka_bold"
+            android:id="@+id/login"
+            android:backgroundTint="@color/brown_themed"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Login" />
+
+        <Button
+            android:fontFamily="@font/fredoka_bold"
+            android:backgroundTint="@color/brown_themed"
+            android:id="@+id/signup"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signup" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
+
